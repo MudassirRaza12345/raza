@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact{
+    background-color: black;
+}
+
+.contact .title h1{
+    font-family: 'Black Ops One', cursive;
+    color: white;
+    font-weight: 700;
+}
+
+.contact .title p{
+    color: white;
+}
+
+.contact input{
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.contact textarea{
+    width: 100%;
+    background: none;
+    outline: none;
+    border: 1px solid white;;
+    resize: none;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+}
+
+.contact textarea:focus,
+.contact input:focus{
+    background: none;
+    outline: none;
+}
+
+.contact button{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px 25px;
+    transition: 0.3s linear;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.contact button:hover{
+    background-color: white;
+    color: black;
+}
+
+/* media query */
+
+@media only screen and (max-width: 340px){
+    .contact .title h1{
+        font-size: 1.8em;
+    }
+
+    .contact .title p{
+        font-size: 14px;
+    }
+}
