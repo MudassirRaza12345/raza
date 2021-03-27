@@ -168,7 +168,10 @@ footer.footer{
        display: block!important;
     }
   }
-  
+  .w-100{
+    width:50%;
+    height: 40vh;
+}
   /* .d-none {
        display: none!important;
   } */
